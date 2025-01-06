@@ -1,0 +1,220 @@
+body {
+    background-color: black !important;
+    height: 100vh;
+    color: rgb(255, 255, 255, 0.85) !important;
+    background: linear-gradient(to top, #000000, #414040);
+}
+
+.content {
+    max-width: 70vw;
+}
+
+@media (max-width: 992px) {
+    .content {
+        max-width: 95vw;
+    }
+}
+
+
+/* Logo */
+
+.logo {
+    color: rgb(255, 255, 255, 0.85) !important;
+    font-weight: bold;
+    font-size: xx-large !important;
+    text-decoration: none;
+}
+
+.logo_pic {
+    margin-right: 10px;
+    text-shadow: #000;
+}
+
+
+/* Navbar */
+
+.navbar-toggler {
+    border-color: rgb(255, 255, 255, 0.85) !important;
+}
+
+.navbar_container {
+    margin-top: 20px;
+    font-family: Graphik-Semibold-Web, sans-serif;
+    font-weight: bold;
+    font-size: 1.3vw;
+    justify-content: center;
+}
+
+.navbar-nav {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-family: Graphik-Semibold-Web, sans-serif;
+    color: rgb(255, 255, 255, 0.85) !important;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important;
+    text-shadow: 0 4px 8px white;
+}
+
+
+/* Search Bar */
+
+.search {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    font-size: 13px;
+}
+
+@media (min-width: 992px) {
+    .search-bar {
+        margin-left: 0px;
+    }
+}
+
+.search button {
+    position: absolute;
+    top: 45%;
+    right: 0px;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    color: rgb(255, 255, 255, 0.75) !important;
+    font-size: 13px;
+    border-radius: 50%;
+}
+
+.search button:hover {
+    color: #000;
+}
+
+.form-control {
+    padding-right: 40px;
+    background-color: rgb(255, 255, 255, 0.5) !important;
+    border-radius: 20px!important;
+    height: 20px;
+    font-family: Graphik-Semibold-Web, sans-serif;
+}
+
+.form-control:hover {
+    background-color: white !important;
+    box-shadow: rgb(255, 255, 255, 0.75);
+    color: black;
+}
+
+
+/* Browse By Options */
+
+.browseby {
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.btn-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-menu {
+    background: linear-gradient(to top, #000000, #414040);
+    border-color: white !important;
+    min-width: 150px !important;
+    max-width: 150px !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+.browse_button {
+    color: white !important;
+    font-size: 50px;
+    font-weight: bold !important;
+    font-family: Graphik-Semibold-Web, sans-serif;
+}
+
+.browse_button:hover {
+    color: white !important;
+    text-shadow: 0 4px 8px white;
+}
+
+
+/* Page Content */
+
+.popular {
+    font-size: 20px;
+    font-family: Graphik-Semibold-Web, sans-serif;
+}
+
+.divider {
+    border: 1px solid white!important;
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+
+
+/* Sign In Modal */
+
+.modal-header {
+    color: rgb(255, 255, 255, 0.85) !important;
+    background: linear-gradient(to top, #000000, #414040);
+    border: 2px solid white !important;
+    font-size: 18px !important;
+    font-family: Graphik-Semibold-Web, sans-serif;
+}
+
+.btn-close {
+    filter: invert(1);
+    opacity: 1;
+}
+
+.modal-body {
+    color: rgb(255, 255, 255, 0.85) !important;
+    background: linear-gradient(to top, #000000, #414040);
+    border: 2px solid white !important;
+    font-family: Graphik-Semibold-Web, sans-serif;
+    font-size: 15px !important;
+}
+
+.sign_button {
+    background-color: #45a049 !important;
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+.sign_button:hover {
+    background-color: green !important;
+}
+
+
+/* Carousel */
+
+.carousel-item {
+    flex: 0 0 25%;
+}
+
+.carousel-inner {
+    overflow: hidden;
+}
+
+.carousel_img {
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

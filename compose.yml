@@ -1,0 +1,16 @@
+services:
+  # Apache and PHP service
+  web:
+    image: php:8.0-apache
+    container_name: Gamerboxd
+    ports:
+      - "8080:80"
+    volumes:
+      - ./Website:/var/www/html
+    networks:
+      - app-network 
+
+# Define networks
+networks:
+  app-network:
+    driver: bridge
